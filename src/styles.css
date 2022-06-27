@@ -1,0 +1,78 @@
+.container {
+  background-color: #fff;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #666c7a;
+}
+p {
+  margin-bottom: 0;
+  color: #666c7a;
+}
+footer {
+  color: slategray;
+  font-size: 10px;
+  display: block;
+  text-align: right;
+}
+.day,
+.high,
+.low {
+  font-size: 14px;
+}
+.low {
+  color: gray;
+  font-weight: 300;
+}
+.high {
+  color: gray;
+  font-weight: 500;
+}
+
+.forcast-5day {
+  width: 120px;
+}
+.appWindow {
+  background: linear-gradient(
+    360deg,
+    rgb(243, 246, 252) 0%,
+    rgb(202, 222, 252) 97%
+  );
+  border-radius: 30px;
+  padding: 15px;
+  display: block;
+  position: fixed;
+  max-width: 80%;
+}
+.card {
+  border-radius: 30px;
+}
+.card-group {
+  display: flex;
+  text-align: center;
+}
+.card-body {
+  padding: 10px;
+}
+
+.fa-solid {
+  color: steelblue;
+  text-align: center;
+}
+.today-emoji {
+  display: block;
+  font-size: 100px;
+  text-align: center;
+}
+.forcast-emoji {
+  font-size: 32px;
+}
