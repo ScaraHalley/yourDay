@@ -59,6 +59,7 @@ footer {
 .card-group {
   display: flex;
   text-align: center;
+  align-items: center;
 }
 .card-body {
   padding: 10px;
